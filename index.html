@@ -31,9 +31,11 @@
 
       function loaded () {
       	myScroll = new IScroll('#wrapper', {
-      		scrollX: true,
-      		scrollY: true,
-          click: true, // open click event
+          eventPassthrough: true,
+          scrollX: true,
+          scrollY: false,
+          preventDefault: false
+          click:true, // open click event
       		momentum: false,
       		snap: true,
       		snapSpeed: 700,
