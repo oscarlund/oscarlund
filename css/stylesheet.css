@@ -495,7 +495,7 @@ h2 {
 
 }
 
-.skill  {
+.skill-1, .skill-2  {
   display:inline-block;
   text-align: left;
   font-weight: 100;
@@ -505,7 +505,7 @@ h2 {
   padding-left:5%;
 }
 
-.skill > b {
+.skill-1 > b, .skill-2 > b  {
   line-height: 35px;
 }
 /*----------*/
@@ -796,7 +796,7 @@ input:focus {
     color: #fff;
     background-color: #3d464d;
     box-sizing: border-box;
-    height: 38px;
+    height: 40px;
     width:100%;
     line-height: 22px;
     /*padding: 4px 18px;*/
@@ -824,7 +824,7 @@ input:focus {
     border-radius: 50px;
     letter-spacing: .03em;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     background-color: none;
     box-sizing: border-box;
     /*height: 38px; */
@@ -859,7 +859,7 @@ input:focus {
     border-radius: 50px;
     letter-spacing: .03em;
     color: #3d464d;
-    font-weight: 700;
+    font-weight: 500;
     background-color: none;
     box-sizing: border-box;
     /*height: 38px;*/
@@ -1108,7 +1108,7 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 
   .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 60px; }
 
-  .skill  {
+  .skill-1, .skill-2  {
     display:inline-block;
     text-align: left;
     font-weight: 100;
@@ -1129,6 +1129,31 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 	.portfolio-ul {
 		display: none;
 	}
+
+	.skill-1  {
+		display:inline-block;
+		text-align: left;
+		font-weight: 100;
+		font-size:16px;
+		margin-top: 30px;
+		width:48%;
+		padding-left:8%;
+	}
+
+	.skill-2  {
+		display:inline-block;
+		text-align: left;
+		font-weight: 100;
+		font-size:16px;
+		margin-top: 30px;
+		width:48%;
+		padding-left:8%;
+	}
+
+	.button-2-container {
+		margin-top:40px;
+	}
+
 
 	/*--------------------------------*/
 	/*     HORIZONTAL SCROLLER        */
@@ -1214,15 +1239,30 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
     width: 90%;
     height:50vw;
   }
-  .skill  {
+
+  .skill-1  {
     display:inline-block;
     text-align: left;
     font-weight: 100;
     font-size:16px;
-    margin-top: 50px;
+    margin-top: 20px;
     width:48%;
     padding-left:8%;
   }
+
+	.skill-2  {
+		display:inline-block;
+		text-align: left;
+		font-weight: 100;
+		font-size:16px;
+		margin-top: 35px;
+		width:48%;
+		padding-left:8%;
+	}
+
+	.button-2-container {
+		margin-top:30px;
+	}
 
   .navbar-brand > span {
     display:none;
