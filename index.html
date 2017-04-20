@@ -32,7 +32,8 @@
       function loaded () {
       	myScroll = new IScroll('#wrapper', {
       		scrollX: true,
-      		scrollY: false,
+      		scrollY: true,
+          click:true, // open click event
       		momentum: false,
       		snap: true,
       		snapSpeed: 700,
@@ -199,13 +200,13 @@
   <div id="viewport">
   	<div id="wrapper">
   		<ul id="scroller" style="-webkit-padding-start: 0px;">
-        <a data-toggle="modal" data-target="#teoriapp-1">
-        <li class="slide">
-          <div class="painting teoriappar-1"></div>
+  			<li class="slide">
+          <a data-toggle="modal" data-target="#teoriapp-1">
+          <div class="painting teoriappar-1"></div></a>
           <div style="text-align: center;">
             <img class="product-logo" src="https://dl.dropboxusercontent.com/s/eg2w4tg0sqr3y4k/teori_logo%20copy.png?dl=0"/>
           </div>
-  			</li></a>
+  			</li>
         <li class="slide">
           <a data-toggle="modal" data-target="#waga-1">
           <div class="painting waga-1"></div></a>
