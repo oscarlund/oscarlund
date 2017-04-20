@@ -1108,16 +1108,6 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 
   .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 60px; }
 
-  .skill-1, .skill-2  {
-    display:inline-block;
-    text-align: left;
-    font-weight: 100;
-    font-size:16px;
-    margin-top: 35px;
-    width:48%;
-    padding-left:15%;
-  }
-
   .container-intro, .container-products {
     padding: 35px 20px 60px 20px;
   }
@@ -1137,7 +1127,7 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 		font-size:16px;
 		margin-top: 30px;
 		width:48%;
-		padding-left:8%;
+		padding-left:15%;
 	}
 
 	.skill-2  {
@@ -1147,7 +1137,7 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 		font-size:16px;
 		margin-top: 30px;
 		width:48%;
-		padding-left:8%;
+		padding-left:15%;
 	}
 
 	.button-2-container {
