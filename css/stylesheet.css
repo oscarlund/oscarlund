@@ -189,7 +189,7 @@ body {
   }
 
   .modal-footer {
-    padding: 15px;
+    padding: 10px 15px 25px 15px;
     text-align: center;
     border-top: 1px solid #fff;
   }
@@ -217,17 +217,18 @@ body {
   width:100%;
 }
   .btn-default {
-    color: #3d464d;
-    background-color: #fff;
+    color: #fff;
+    background-color: #3d464d;
     border-color: #3d464d;
     border-radius: 50px;
     margin:0.5em 0;
+		transition: all 0.23s ease-in-out 0s;
   }
 
   .btn-default:hover {
       color: #3d464d;
       background-color: #fff;
-      border-color: #adadad;
+      border-color: #3d464d;
   }
 
     .btn-default:focus, .btn-default:active, .btn-default:focus:active, .close:focus, .close:active, .close:focus:active  {
