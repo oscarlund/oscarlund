@@ -333,7 +333,8 @@ body {
 }
 
 .navbar-inverse {
-	background-color: #3d464d;
+	/*background-color: #3d464d;*/
+	background-color: #011936;
 	opacity:1;
 }
 
@@ -469,18 +470,18 @@ body {
 }
 
 a {
-  color:#31A9DD;
+  color:#16bac5;
 }
 
 h1 {
   font-size: 42px;
-  color:#3d464d;
+  color:#011936;
   margin:0;
 }
 
 h2 {
   font-size: 22px;
-  color:#3d464d;
+  color:#011936;
   letter-spacing: 1px;
   font-weight:100;
 }
@@ -809,7 +810,7 @@ input:focus {
     border-radius: 3px;
     letter-spacing: .03em;
     color: #fff;
-    background-color: #3d464d;
+    background-color: #011936;
     box-sizing: border-box;
     height: 40px;
     width:100%;
@@ -832,8 +833,8 @@ input:focus {
 
 .button {
     font-size: 13px;
-		background-color: #3d464d;
-    border: 1px solid #3d464d;
+		background-color: #011936;
+    border: 1px solid #011936;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
@@ -855,9 +856,9 @@ input:focus {
 
 .button:hover {
     background-color: transparent;
-		border: 1px solid #3d464d;
+		border: 1px solid #011936;
     cursor: pointer;
-    color: #3d464d;
+    color: #011936;
 }
 
 .button-2-container {
@@ -967,7 +968,7 @@ input:focus {
 
 .container-products {
   padding:75px 20px 100px 20px;
-  background-color: #3d464d;
+  background-color: #16bac5;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
@@ -1025,10 +1026,10 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 }
 
 .footer{
-  background:#3d464d;
+  background:#011936;
   min-height:320px;
   min-height:20vh;
-  border-bottom:12px solid #3d464d;
+  border-bottom:12px solid #011936;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
@@ -1105,6 +1106,8 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 		font-size: 17px;
 	}
 
+
+
   .insta {
     display: table-cell;
     width:98%;
@@ -1127,7 +1130,11 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 
   .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 85px; }
 
-  .container-intro, .container-products {
+	.container-products {
+		background-color: #ED217C;
+	}
+
+	.container-intro, .container-products {
     padding: 35px 20px 60px 20px;
   }
 
