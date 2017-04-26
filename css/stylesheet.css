@@ -874,7 +874,7 @@ input:focus {
     -moz-border-radius: 50px;
     border-radius: 50px;
     letter-spacing: .03em;
-    color: #3d464d;
+    color: #16bac5;
     font-weight: 500;
     background-color: none;
     box-sizing: border-box;
@@ -1168,6 +1168,10 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 
 	.button-2-container {
 		margin-top:40px;
+	}
+
+	.button-2 {
+		color:#ED217C;
 	}
 
 
