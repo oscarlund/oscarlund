@@ -586,7 +586,7 @@ h2 {
 	cursor: pointer;
   border-radius: 5px;
 	background-color: #transparent;
-	filter:grayscale(0.9);
+	filter:grayscale(1);
 	-webkit-transition: all 0.8s;
 	transition: all 0.8s;
 
