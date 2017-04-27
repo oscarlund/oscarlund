@@ -726,7 +726,9 @@ figure.effect-bubba:hover figcaption::after {
 /*-----END PORTFOLIO-----*/
 .container-top{
   background: #fbfbfb; /* Old browsers */
-	background-image: url("https://dl.dropboxusercontent.com/s/6qaoa1hqc3xley3/low-poly-texture-27.png?dl=0");
+	/*background-image: url("https://dl.dropboxusercontent.com/s/6qaoa1hqc3xley3/low-poly-texture-27.png?dl=0");*/
+	background-image: url("https://dl.dropboxusercontent.com/s/fj7rx7x3s0tx4wt/low-poly-texture-27.jpg?dl=0");
+
 	background-repeat: no-repeat;
 	background-position: center top;
   /*background: -moz-linear-gradient(top, #fbfbfb 0%, #f4f4f4 100%); /* /*background: -webkit-linear-gradient(top, #fbfbfb 0%,#f4f4f4 100%); /* Chrome10-25,Safari5.1-6 */
