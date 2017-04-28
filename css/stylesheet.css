@@ -341,11 +341,15 @@ body {
 .navbar { min-height:44px;
 }
 
- .navbar .navbar-brand{ padding: 0 25px;font-size: 14px;line-height: 45px; max-height:44px;}
- .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 45px; }
+ .navbar .navbar-brand{ padding: 0 25px;font-size: 14px;line-height: 48px; max-height:44px;}
+ .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 22px; }
  .navbar .navbar-toggle {  margin-top: 3px; margin-bottom: 0px; margin-right:20px; padding: 8px 9px; }
  .navbar .navbar-form { margin-top: 2px; margin-bottom: 0px }
 
+ .nav > li {
+ 	height:47px;
+ 	padding-top:13px;
+ }
 
  .navbar-toggle .icon-bar+.icon-bar {
      margin-top: 4px;
@@ -367,7 +371,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color:#B4B7C6;
+	/*color:#B4B7C6;*/
 }
 
 .navbar-inverse .navbar-brand {
@@ -421,7 +425,7 @@ body {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #333;
+    /*border-color: #333;*/
 }
 
 .navbar-collapse {
@@ -467,6 +471,52 @@ body {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+
+.nav-1 {
+	border-bottom: solid 2px #7F6BDE;
+	transition: all 0.12s ease-in-out 0.06s ;
+}
+
+.nav-1:hover {
+	border-width: 4px;
+}
+
+.nav-2 {
+	border-bottom: solid 2px #BA7FE2;
+	transition: all 0.12s ease-in-out 0.06s ;
+}
+
+.nav-2:hover {
+	border-width: 4px;
+}
+
+.nav-3 {
+	border-bottom: solid 2px #FD94BC;
+	transition: all 0.12s ease-in-out 0.06s ;
+}
+
+.nav-3:hover {
+	border-width: 4px;
+}
+
+.nav-4 {
+	border-bottom: solid 2px #EF6688;
+	transition: all 0.12s ease-in-out 0.06s ;
+}
+
+.nav-4:hover {
+	border-width: 4px;
+}
+
+.nav-5 {
+	border-bottom: solid 2px #A24564;
+	transition: all 0.12s ease-in-out 0.06s ;
+}
+
+.nav-5:hover {
+	border-width: 4px;
 }
 
 a {
@@ -1155,15 +1205,33 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
     height:35vw;
   }
 
+	.navbar .navbar-brand{ padding: 0 25px;font-size: 14px;line-height: 48px; max-height:44px;}
+  .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 45px; }
+  .navbar .navbar-toggle {  margin-top: 3px; margin-bottom: 0px; margin-right:20px; padding: 8px 9px; }
+  .navbar .navbar-form { margin-top: 2px; margin-bottom: 0px }
+
+  .nav > li {
+  	min-height:80px;
+  	padding-top:13px;
+  }
+
+	.nav-1, .nav-2, .nav-3, .nav-4, .nav-5 {
+		border-bottom-width: 1px;
+	}
+
+	.navbar-nav {
+		margin: 20px 20px 80px 20px;
+	}
+
   .navbar-collapse {
-    background-color: #3d404a;
+    background-color: #08264D;
   }
 
   .nav>li:active {
-      background-color: #3d464d;
+      background-color: #08264D;
   }
 
-  .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 85px; }
+  .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 60px; }
 
 	.container-products {
 		/*background-color: #ED217C;*/
