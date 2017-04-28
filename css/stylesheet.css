@@ -522,7 +522,13 @@ body {
 a {
   /*color:#16bac5;*/
 	color:#337ab7;
+	text-decoration: none;
+}
 
+a:hover {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	text-decoration: underline;
 }
 
 h1 {
@@ -536,6 +542,19 @@ h2 {
   color:#011936;
   letter-spacing: 1px;
   font-weight:100;
+}
+
+.dotted-link {
+	border-bottom: 1px dashed #aaadad;
+	color:inherit;
+	transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.dotted-link:hover {
+	color:#EF6688;
+	text-decoration: none;
+	border-bottom: 1px dashed #EF6688;
 }
 
 /*----------*/
