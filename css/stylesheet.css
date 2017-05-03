@@ -761,6 +761,8 @@ figure.effect-bubba:hover img {
 	opacity: 0.9;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+	-ms-transform: scale(1.15);
 	-webkit-transform-style: preserve-3d;
 	/*filter: saturate(0%) brightness(90%) contrast(100%);*/
 }
