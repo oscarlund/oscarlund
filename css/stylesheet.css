@@ -820,8 +820,8 @@ figure.effect-bubba:hover figcaption::after {
 	background-image: url("https://dl.dropboxusercontent.com/s/fj7rx7x3s0tx4wt/low-poly-texture-27.jpg?dl=0");
 
 	background-repeat: no-repeat;
-	background-position: 50% 0;
-	/*background-attachment: fixed;*/
+	background-position: left top;
+	background-attachment: fixed;
   /*background: -moz-linear-gradient(top, #fbfbfb 0%, #f4f4f4 100%); /* /*background: -webkit-linear-gradient(top, #fbfbfb 0%,#f4f4f4 100%); /* Chrome10-25,Safari5.1-6 */
   /*background: linear-gradient(to bottom, #fbfbfb 0%,#f4f4f4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
